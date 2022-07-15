@@ -1,0 +1,99 @@
+.nav-link {
+    box-shadow: inset 0 0 0 0 #2F3061;
+    color: white;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+.nav-link:hover {
+    box-shadow: inset 120px 0 0 0 #2F3061;
+    color: white;
+  }
+
+.accordion-button:focus{
+  border-color:white !important;
+  box-shadow: unset !important;
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+  border-color: none;
+}
+
+@media screen and (max-width: 992px){
+  .title-belt{
+    width: 300px;
+  }
+}
+
+.box-1{
+  position: relative;
+}
+
+.box-1 .second{
+  position: absolute;
+  bottom: 50px;
+}
+
+.more h5{
+  color: #2F3061;
+}
+
+.more:hover h5{
+  font-size:25px;
+  color: #FFE66D;
+}
+
+.more:hover i{
+  color: #FFE66D;
+}
+
+.PFP{
+  box-shadow: 10px 10px #2F3061;
+}
+
+ /* .videoWraper{
+  position:relative;
+  display:block;
+}
+.img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity:0;
+}
+video#video {
+    width: 100%;
+}
+.videoWraper:hover .img-overlay{
+opacity:1;
+}  */
+
+.history video{
+  display: none;
+  width: 400px;
+}
+
+.history:hover img {
+  display: none;
+}
+
+.history:hover video {
+  display: block;
+}
+
+.contact i{
+  font-size: 30px;
+}
+
+.contact:hover i{
+  font-size:35px;
+  color: aliceblue;
+}
+
+
